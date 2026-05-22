@@ -1,27 +1,9 @@
-# VDS Color System v2 — Rollout Hub
+# VDS Color System v2 — Rollout Hub (deprecated)
 
-Strategy and onboarding page for the Verkada Design System Color v2 migration.
+**This project is retired.** All content moved to the Color v2 Storybook:
 
-**Live:** https://ankush-rustagi.github.io/vds-color-v2/
+**https://ankush-rustagi.github.io/vds-color-updates-2026/**
 
-**Migration Storybook:** https://ankush-rustagi.github.io/vds-color-v2-storybook/
+For vibe design assets (Claude Design, OpenDesign, `DESIGN.md`), see `documentation/17-ux-design/` in docs-vibes.
 
-## What's on this page
-
-- Rollout phase status (define → publish → migrate → refine)
-- Who does what by role (Design System, designer, FE, eng lead)
-- Team migration cards for every major product line
-- Links into the companion Storybook for hands-on migration guides
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
-
-## Deploy
-
-Push to `main`. GitHub Actions publishes to GitHub Pages automatically.
-
-Enable Pages once: **Settings → Pages → Source: GitHub Actions**
+The live GitHub Pages URL for this repo now redirects to the Storybook.
