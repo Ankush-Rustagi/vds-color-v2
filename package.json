@@ -1,13 +1,13 @@
 {
   "name": "vds-color-v2",
   "private": true,
-  "version": "1.0.0",
-  "description": "VDS Color System v2 strategy hub: rollout phases, who does what, and team migration overview.",
+  "version": "0.0.0",
+  "description": "ARCHIVED — replaced by vds-color-updates-2026 Storybook. GitHub Pages disabled.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "echo 'Archived. Use vds-color-updates-2026 instead.' && exit 1",
+    "build": "echo 'Archived. Use vds-color-updates-2026 instead.' && exit 1",
+    "preview": "echo 'Archived.' && exit 1"
   },
   "dependencies": {
     "react": "^19.2.6",

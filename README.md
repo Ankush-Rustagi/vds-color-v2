@@ -1,9 +1,12 @@
-# VDS Color System v2 — Rollout Hub (deprecated)
+# VDS Color System v2 — Rollout Hub (archived)
 
-**This project is retired.** All content moved to the Color v2 Storybook:
+**This repository is retired and unpublished.** Do not use or link to it.
 
-**https://ankush-rustagi.github.io/vds-color-updates-2026/**
+## Use instead
 
-For vibe design assets (Claude Design, OpenDesign, `DESIGN.md`), see `documentation/17-ux-design/` in docs-vibes.
+| Need | Location |
+|------|----------|
+| Color v2 strategy, migration, tokens | [vds-color-updates-2026 Storybook](https://ankush-rustagi.github.io/vds-color-updates-2026/) |
+| Vibe design / Claude Design assets | `documentation/17-ux-design/` in [docs-vibes](https://github.com/verkada/docs-vibes/tree/main/17-ux-design) |
 
-The live GitHub Pages URL for this repo now redirects to the Storybook.
+GitHub Pages for this repo has been disabled. The URL `https://ankush-rustagi.github.io/vds-color-v2/` is no longer served.

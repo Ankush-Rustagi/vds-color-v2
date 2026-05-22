@@ -1,4 +1,4 @@
-export const STORYBOOK_BASE = 'https://ankush-rustagi.github.io/vds-color-v2-storybook'
+export const STORYBOOK_BASE = 'https://ankush-rustagi.github.io/vds-color-updates-2026'
 export const DOCS_HUB_BASE = 'https://ankush-rustagi.github.io/vds-color-v2/'
 export const FIGMA_VDS =
   'https://www.figma.com/design/ErBiDvqI7wPQKKXWfhC6yl/VDS---Verkada-Design-System'
@@ -42,7 +42,7 @@ export const WHO_DOES_WHAT = [
     role: 'Design System',
     responsibility: 'Owns token spec in Figma Collection',
     action: 'Keep Collection current; review team PRs against spec',
-    href: `${STORYBOOK_BASE}/?path=/docs/reference-semantic-tokens--docs`,
+    href: `${STORYBOOK_BASE}/?path=/docs/reference-semantic-colors--docs`,
   },
   {
     role: 'Product designer',
@@ -79,14 +79,14 @@ export type ProductLineTeam = {
 
 export const PRODUCT_TEAMS: ProductLineTeam[] = [
   {
-    productLine: 'Video Security',
+    productLine: 'Cameras',
     commandSurface: 'Camera grid, live view chrome, device health badges',
     migrationExample: 'Status pill colors on camera tiles',
     legacyToNew: '--color-text-secondary → --text/secondary',
-    designOwner: 'VDS + Video design',
+    designOwner: 'VDS + Cameras design',
     engOwner: 'Web Platform',
     status: 'not-started',
-    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-video-security--docs`,
+    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-cameras--docs`,
   },
   {
     productLine: 'Access Control',
@@ -119,24 +119,24 @@ export const PRODUCT_TEAMS: ProductLineTeam[] = [
     storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-intercom--docs`,
   },
   {
-    productLine: 'Environmental Sensors',
+    productLine: 'Sensors',
     commandSurface: 'Sensor reading cards, threshold alerts, trend charts',
     migrationExample: 'Warning state on CO2 threshold breach',
     legacyToNew: '--color-warning → --support/warning',
     designOwner: 'Sensors design',
     engOwner: 'Sensors eng',
     status: 'not-started',
-    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-environmental-sensors--docs`,
+    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-sensors--docs`,
   },
   {
-    productLine: 'Guest / Workplace',
+    productLine: 'Workplace',
     commandSurface: 'Visitor check-in, badge printing, host notifications',
     migrationExample: 'Checkbox on visitor consent form',
     legacyToNew: '--checkbox-bg → --checkbox/default-background',
-    designOwner: 'Guest design',
-    engOwner: 'Guest eng',
+    designOwner: 'Workplace design',
+    engOwner: 'Workplace eng',
     status: 'not-started',
-    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-guest-workplace--docs`,
+    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-workplace--docs`,
   },
   {
     productLine: 'Maps',
@@ -148,22 +148,12 @@ export const PRODUCT_TEAMS: ProductLineTeam[] = [
     status: 'in-progress',
     storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-maps--docs`,
   },
-  {
-    productLine: 'Command Analytics',
-    commandSurface: 'Dashboard charts, KPI cards, date range controls',
-    migrationExample: 'Chart series palette + axis label colors',
-    legacyToNew: '--vc-axis-label → --text/secondary',
-    designOwner: 'Analytics design',
-    engOwner: 'Command Analytics eng',
-    status: 'in-progress',
-    storybookHref: `${STORYBOOK_BASE}/?path=/docs/teams-command-analytics--docs`,
-  },
 ]
 
 export const QUICK_LINKS = [
   { label: "I'm designing in Figma", href: `${STORYBOOK_BASE}/?path=/docs/migrations-color-v2-figma-workflow--docs` },
   { label: "I'm migrating CSS in code", href: `${STORYBOOK_BASE}/?path=/docs/migrations-color-v2-getting-started--docs` },
-  { label: 'I need the full token list', href: `${STORYBOOK_BASE}/?path=/docs/reference-semantic-tokens--docs` },
+  { label: 'I need the full token list', href: `${STORYBOOK_BASE}/?path=/docs/reference-semantic-colors--docs` },
   { label: "I'm scoping for leadership", href: `${STORYBOOK_BASE}/?path=/docs/foundations-color-v2-whats-changing--docs` },
   { label: "I'm building something new", href: `${STORYBOOK_BASE}/?path=/docs/foundations-color-v2-greenfield-adoption--docs` },
   { label: 'VDS Figma source file', href: FIGMA_VDS },
